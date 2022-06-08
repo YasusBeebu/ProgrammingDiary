@@ -1,0 +1,80 @@
+10.04
+Learned about negative value of sticky property that can have render sticky second element.
+Practice some html coding and finished Dashboard html markup of my pet project
+
+11.04 
+Realised that I don't understand how an app must be build.
+
+12.04 
+Had some practise with claases, constructors,get,set,static.Have completed a little course on codeAcademy.com
+
+13.04
+Read about factory functions vs classes, this and losing this examples let say = user.say.bind(user) vs let button = new Button("hello");
+
+14.04
+Started my library app on OdinProject, have made front end simple part
+
+15.04
+Made aside nav bar on my library project
+
+16.04
+Finished bookCard in the library  project
+
+17.04-18.04
+Refreshed my knowleges about closures\factory functions
+
+19.04
+Read about and had some practice with webpack, read about history of javaascript tools like webpack commonjs gulp grunt ects
+
+20.04 
+Realised how huge webpack is, tried some tutorials on https://webpack.js.org/ webpack is a musthave nowadays I must learn it.
+
+21.04 
+Realised that I don't understand OOP and how to OOP in javascript and it's rly hard to find examples when javascript is so flexible it's  a multiparadigm language, maybe I should start learning something like C# to learn the basics about objects and how to oop in a oop lang and then implement my C# exp on Javascript(Typescript).
+
+23.04 
+Watch some job interviews(4h+) to understand modern stack requirments.
+
+25.04
+Promises .then
+
+26.04
+Async\await
+
+28.04
+Read about Tests and TDD - Test Driven Development
+
+1.05 
+Have been watching --Fun Fun Function-- youtube channel about testing
+
+3.05 
+Continued with testing, Jest Basics
+
+5.05
+Learned more about jest and Babel,
+Fixed Error: Error while loading config - You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously.   
+You have to rename babel.config.js to babel.config.cjs(CommonJs), to befriend Node and Babel.
+You can use default  babel.config.js if you don't add "type":"module" into your packaje.json
+
+Learned about .gitignore and .gitignore common patterns, forked it to always use in my projects.
+
+24.05
+Git rebase vs merge - rebase placing your commits on tip of HEAD, merge is saving entire history and can be messy if many devs working on a project but rebase is more dangerous, it is possible to colalborate using rebase based workflow and it makes git history MUCH more readable. watched --A Better Git Workflow with Rebase-- from ---A better Coder-- to understand rebase based workflow.
+
+git squash - for merging commits, needed mostly when u merge master with new feature and commits that were important when you developed a feature are now longer importand and can be merged into one, that action helps keep git history tidy.
+
+git ammend - for edditing your last commit, it's not eddtining it's REPLACING with completely new one so it's dangereous to use after pushing into public branches.
+
+rebase -i  - allows you to change multiple commits at once
+
+git push --force - is mostly used at pull requests
+
+branches and commits ARE POINTERS on each other in sequence, that why rewriting history could be devastating on others workflow.
+
+29.05
+Learned about git remove and its usecases, usage of git reset is a simple way to undo changes that haven’t been shared with anyone else. It’s your go-to command when you’ve started working on a feature and find yourself thinking, “Oh crap, what am I doing? I should just start over.”
+--soft – The staged snapshot and working directory are not altered in any way.
+--mixed – The staged snapshot is updated to match the specified commit, but the working directory is not affected. This is the default option.
+--hard – The staged snapshot and the working directory are both updated to match the specified commit.
+
+git revert  undoes a commit by creating a new commit. This is a safe way to undo changes, as it has no chance of re-writing the commit history. Contrast this with git reset, which does alter the existing commit history. For this reason, git revert should be used to undo changes on a public branch,  and git reset should be reserved for undoing changes on a private branch.
