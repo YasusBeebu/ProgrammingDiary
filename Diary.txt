@@ -78,3 +78,21 @@ Learned about git remove and its usecases, usage of git reset is a simple way to
 --hard – The staged snapshot and the working directory are both updated to match the specified commit.
 
 git revert  undoes a commit by creating a new commit. This is a safe way to undo changes, as it has no chance of re-writing the commit history. Contrast this with git reset, which does alter the existing commit history. For this reason, git revert should be used to undo changes on a public branch,  and git reset should be reserved for undoing changes on a private branch.
+
+08.06
+Started learning React and modern frontEnd devStack. Learned about react functional and class component, read about State object. Did some react-first-app stuff and ect. 
+React dom is an amazing thing, it compares the element and its children to the rpevious one and only applies the DOM updates necessary to bring the DOM to the desired state.
+function tick() {
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  root.render(element);
+}
+
+setInterval(tick, 1000);
+
+It's gonna update only date and not gonna recreate h1 and other tags which are't changed.
+
