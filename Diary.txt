@@ -98,3 +98,6 @@ It's gonna update only date and not gonna recreate h1 and other tags which are't
 
 21.06
 Decided to try a bit gamedevelopmentm coz I allways wanted to, read the Learn C# by Developing games with Unity 5.x
+
+24.06
+Learned about sprites, basics of unity, created my first animation for a sprite character, started developing my test game
