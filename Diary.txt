@@ -101,3 +101,6 @@ Decided to try a bit gamedevelopmentm coz I allways wanted to, read the Learn C#
 
 24.06
 Learned about sprites, basics of unity, created my first animation for a sprite character, started developing my test game
+
+28.06
+Read about and use some of Animations, Colliders, Rigidbody component, Tags, layers, prefabs, scripts, have made my first character that walks on WASD.
