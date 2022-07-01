@@ -104,3 +104,6 @@ Learned about sprites, basics of unity, created my first animation for a sprite 
 
 28.06
 Read about and use some of Animations, Colliders, Rigidbody component, Tags, layers, prefabs, scripts, have made my first character that walks on WASD.
+
+1.07.22
+Built my first world for my character, start learning Cinemachine component
